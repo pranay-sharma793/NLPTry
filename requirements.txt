@@ -1,0 +1,16 @@
+allennlp
+boto3
+nltk
+numpy
+requests
+scikit-learn
+scipy
+torch
+torchvision
+tqdm
+transformers
+spacy
+
+simplejson
+
+lxml
