@@ -93,13 +93,13 @@ def get_dataset(dataset_name):
     verb18_test = 'data/VUA/test_spacy.json'
     verb18_val = 'data/VUA/val_spacy.json'
 
-    vua20_train = 'data/VUA20/train_rospacy.json'
+    vua20_train = '/kaggle/input/ropptdatamohx/train_rospacy.json'
     vua20_test = 'data/VUA20/test_rospacy.json'
     vua20_val = 'data/VUA20/val_rospacy.json'
 
     trofi_test = 'data/TroFi/test_rospacy.json'
 
-    mohx_test = 'data/MOH-X/CLS/test_rospacy.json'
+    mohx_test = '/kaggle/input/ropptdatamohx/test_rospacy.json'
     
     verb20_train = 'data/verb20/train_biaffine.json'
     verb20_test = 'data/verb20/test_biaffine.json'
