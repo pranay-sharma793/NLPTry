@@ -85,29 +85,29 @@ def get_dataset(dataset_name):
     twitter_train = 'data/twitter/train_biaffine.json'
     twitter_test = 'data/twitter/test_biaffine.json'
 
-    vua18_train = '/kaggle/input/ropptdata/train_rospacy.json'
-    vua18_test = '/kaggle/input/ropptdata/test_rospacy.json'
-    vua18_val = '/kaggle/input/ropptdata/val_rospacy.json'
+    vua18_train = 'data/VUA18/train_rospacy.json'
+    vua18_test = 'data/VUA18/test_rospacy.json'
+    vua18_val = 'data/VUA18/val_rospacy.json'
 
     verb18_train = 'data/VUA/train_spacy.json'
     verb18_test = 'data/VUA/test_spacy.json'
     verb18_val = 'data/VUA/val_spacy.json'
 
-    vua20_train = '/kaggle/input/ropptdatamohx/train_rospacy.json'
+    vua20_train = 'data/VUA20/train_rospacy.json'
     vua20_test = 'data/VUA20/test_rospacy.json'
     vua20_val = 'data/VUA20/val_rospacy.json'
 
     trofi_test = 'data/TroFi/test_rospacy.json'
 
-    mohx_test = '/kaggle/input/ropptdatamohx/test_rospacy.json'
+    mohx_test = 'data/MOH-X/CLS/test_rospacy.json'
     
     verb20_train = 'data/verb20/train_biaffine.json'
     verb20_test = 'data/verb20/test_biaffine.json'
     verb20_val = 'data/verb20/val_biaffine.json'
     
-    sample_train = '/kaggle/input/ropptdata/train_rospacy.json'
-    sample_test = '/kaggle/input/ropptdata/test_rospacy.json'
-    sample_val = '/kaggle/input/ropptdata/val_rospacy.json'
+    sample_train = 'data_sample/VUA/train_rospacy.json'
+    sample_test = 'data_sample/VUA/test_rospacy.json'
+    sample_val = 'data_sample/VUA/val_rospacy.json'
 
     ds_train = {'rest': rest_train, 'vua18': vua18_train, 'vua20':vua20_train, 'trofi': vua20_train, 'mohx':vua20_train,
             'verb18': verb18_train, 'verb20': verb20_train, 'sample':sample_train, 'laptop': laptop_train, 'twitter': twitter_train}
