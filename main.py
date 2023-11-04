@@ -8,6 +8,9 @@ import numpy as np
 import torch
 import torch.nn as nn
 
+import nltk
+nltk.download('punkt')
+
 from tqdm import tqdm, trange
 from collections import OrderedDict
 from torch.utils.data import DataLoader, RandomSampler, SequentialSampler, TensorDataset
