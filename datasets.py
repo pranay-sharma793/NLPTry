@@ -89,9 +89,9 @@ def get_dataset(dataset_name):
     # vua18_test = 'data/VUA18/test_rospacy.json'
     # vua18_val = 'data/VUA18/val_rospacy.json'
 
-    vua18_train = '/kaggle/working/NLPTry/train_rospacy_dirty.json'
-    vua18_test = '/kaggle/working/NLPTry/test_rospacy_dirty.json'
-    vua18_val = '/kaggle/working/NLPTry/val_rospacy_dirty.json'
+    vua18_train = '/kaggle/working/NLPTry/train_rospacy_sampled.json'
+    vua18_test = '/kaggle/working/NLPTry/test_rospacy_sampled.json'
+    vua18_val = '/kaggle/working/NLPTry/val_rospacy_sampled.json'
 
     verb18_train = 'data/VUA/train_spacy.json'
     verb18_test = 'data/VUA/test_spacy.json'
